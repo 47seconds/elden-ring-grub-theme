@@ -1,0 +1,65 @@
+# GRUB2 Theme
+
+# Global settings
+title-text: "Elden Ring Theme"
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-box: "terminal_box_*.png"
+terminal-font: "Terminus Regular 16"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Boot menu settings
++ boot_menu {
+    left = 15%
+    width = 70%
+    top = 30%
+    height = 40%
+    item_font = "Public Sans Bold 21"
+    item_color = "#cccccc"
+    selected_item_color = "#ffffff"
+    item_height = 70
+    item_padding = 5
+    item_spacing = 13
+    selected_item_pixmap_style = "select_*.png"
+    icon_width = 75
+    icon_height = 75
+    icon_spacing = 20
+}
+
+# Progress bar
++ progress_bar {
+    id = "__timeout__"
+    left = 15%
+    width = 70%
+    top = 80%
+    height = 16
+    show_text = true
+    text_color = "#ffffff"
+}
+
+# Countdown label
+# You can change the name of default starting OS here
++ label {
+  left = 7%
+  top = 78%
+  align = "left"
+  id = "__timeout__"
+  text = "Booting selected OS in %d..."
+  color = "#cccccc"
+  font = "DIN 2014 Regular 20"
+}
+
+# Help text
++ hbox {
+    left = 0
+    top = 95%
+    width = 100%
+    height = 20
+    alignment = "center"
+    
+    + label {text = "Use ↑ and ↓ keys to select, Enter to boot, E to edit, C for command line" color = "#cccccc"}
+}
