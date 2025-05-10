@@ -1,6 +1,6 @@
 # Elden Ring GRUB Theme
 
-Bring the epic and immersive vibe of **Elden Ring** to your Linux bootloader. This GRUB theme features dark tones, a beautiful high-resolution background, and minimal yet immersive design inspired by the Lands Between.
+Can't find an **Elden Ring** GRUB theme for my bootloader, so I build one on my own. This theme features the Grace at Roundtable Hold.
 
 <div align="center">
   <img src="screenshot.png" alt="Elden Ring GRUB Theme" width="800">
