@@ -2,6 +2,7 @@
 
 Can't find an **Elden Ring** GRUB theme for my bootloader, so I build one on my own. This theme features the Grace at Roundtable Hold.
 
+## Preview
 <div align="center">
   <img src="screenshot.png" alt="Elden Ring GRUB Theme" width="800">
 </div>
